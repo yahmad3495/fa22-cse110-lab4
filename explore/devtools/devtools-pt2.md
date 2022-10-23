@@ -1,0 +1,2 @@
+1. The bug was that when the user would input the numbers, JS would read them in as strings. Thus, since they were both of type string, using + operator would result in string concatenation.
+2. To fix it, you would have to cast the types of the two inputs to a number, so that JS knows to add them as numbers.
